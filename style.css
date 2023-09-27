@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: white;
+    background-color: #000;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#nav img{
+    width: 50px;
+}
+
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3vw;
+    letter-spacing: -1px;
+}
+
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+
+#homemain h1{
+    font-weight: 600;
+    letter-spacing: -0.1vw;
+    font-size: 1.34vw;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .headings h1{
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -5px;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #000;
+}
+
+#homemain .headings h1:hover{
+    color: #000;
+}
+
+#homelast{
+    padding: 5vw 15vw;
+}
+#homelast p{
+    width: 80%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;
+}
+
+#home2{
+    padding: 10vw 15vw;
+}
+
+#fheading>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+#fimages{
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    
+}
+
+#fleftwrite{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fleftwrite h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+#fleftwrite h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+#fleftwrite h4{
+    opacity: .5;
+}
+#fright{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: inherit;
+}    
+
+#fright #image{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+#btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 0vw;
+}
+
+#dev h1{
+    font-size: 4vw;
+    font-weight: 700;
+    width: 60%;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.slide{
+    width: 40%;
+    padding: 3px;
+}
+
+.slide .img{
+    width: 100%;
+    height: 200px;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.slide .tag{
+    width: fit-content;
+    margin: 20px 0;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 100px;
+    background-color: #000000;
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-family: 400;
+}
+
+#btndiv2{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#btndiv2 button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
